@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "discrete-cosine-transform"
+version = "0.1.0"
+description = ""
+authors = ["nutorbit <nutorbitx@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+bitstring = "^3.1.7"
+opencv-python = "^4.5.1"
+numpy = "^1.20.2"
+matplotlib = "^3.4.1"
+tqdm = "^4.60.0"
+jupyter = "^1.0.0"
+notebook = "^6.3.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
